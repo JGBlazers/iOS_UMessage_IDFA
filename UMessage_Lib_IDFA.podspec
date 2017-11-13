@@ -7,6 +7,6 @@ s.license      = 'MIT'
 s.authors      = {'fcgIsPioneer' => '2044471447@qq.com'}
 s.platform     = :ios, '9.0'
 s.source       = {:git => 'https://github.com/fcgIsPioneer/iOS_UMessage_IDFA.git', :tag => s.version}
-s.source_files = 'iOS_UMessage_IDFA/UMessage_Lib_IDFA/*.{h,a}'
+s.source_files = 'iOS_UMessage_IDFA/UMessage_Lib_IDFA/**/*.{h,a}'
 s.requires_arc = true
 end
